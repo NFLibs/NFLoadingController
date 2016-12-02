@@ -1,26 +1,153 @@
-pod-template
-============
+**NFLoadingController** [![] (https://camo.githubusercontent.com/0727f3687a1e263cac101c5387df41048641339c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53776966742d332e302d6f72616e67652e7376673f7374796c653d666c6174)](https://developer.apple.com/swift/)
+===
 
-An opinionated template for creating a Pod with the following features:
 
-- Git as the source control management system
-- Clean folder structure
-- Project generation
-- MIT license
-- Testing as a standard
-- Turnkey access to Travis CI
-- Also supports Carthage
+**NFLoadingController** gives you the ability to customize an activity indicator with a GIF image of your choice or the default one shown in the demo below.
+**NFLoadingController** uses SwiftGifOrigin pod to play gif images.
 
-## Getting started
+![](demo.gif)
 
-There are two reasons for wanting to work on this template, making your own or improving the one for everyone's. In both cases you will want to work with the ruby classes inside the `setup` folder, and the example base template that it works on from inside `template/ios/`. 
 
-## Best practices
 
-The command `pod lib create` aims to be ran along with this guide: http://guides.cocoapods.org/making/using-pod-lib-create.html so any changes of flow should be updated there also.
+**Usage**
+=
+```
+import UIKit
 
-It is open to communal input, but adding new features, or new ideas are probably better off being discussed in an issue first. In general we try to think if an average Xcode user is going to use this feature or not, if it's unlikely is it a _very strongly_ encouraged best practice ( ala testing / CI. ) If it's something useful for saving a few minutes every deploy, or isn't easily documented in the guide it is likely to be denied in order to keep this project as simple as possible.
+class ViewController: UIViewController {
+    var loadingController = NFLoadingController()
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let builder = NFLoadingControllerBuilder { (builder:NFLoadingControllerBuilder) in
+            builder.alpha = 0.7
+            builder.image = UIImage.gif(name:"loadcat")
+            builder.backgroundView = {
+                let view = UIView()
+                view.backgroundColor = UIColor.white
+                return view
+            }
+            builder.frame = {
+                return CGRect(x: self.view.frame.size.width/2 - 50, y: self.view.frame.size.height/2 - 50, width: 100, height: 100)
+            }
+            builder.presentingStyle = .popIn
+            builder.dismissalStyle = .popOut
+            builder.textColor = UIColor.red
+            builder.textFont = UIFont.boldSystemFont(ofSize: 30)
+        }
+        self.loadingController = NFLoadingController(builder: builder)!
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        self.loadingController.present(from: self)
+        
+        let when = DispatchTime.now()
+        DispatchQueue.main.asyncAfter(deadline: when+4) {
+            self.loadingController.dismiss()
+        }
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+}
+```
 
-## Requirements:
+**Requirement**
+=
+- iOS 8.0+
+- Swift 3.0
 
-- CocoaPods 1.0.0+
+**Installation**
+=
+**CocoaPods**
+-
+Install [CocoaPods](cocoapods.org) with the following command:
+
+>  gem install cocoapods
+
+Integrate **NFLoadingController** into your Xcode project by creating a Podfile:
+```
+platform :ios, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'NFLoadingController'
+end
+```
+Run `pod install` to build your dependencies.
+
+**Manually**
+-
+Just drag NFLoadingController.swift to your project.
+
+**How to Use?**
+-
+Easy try the following
+
+```
+let builder = NFLoadingControllerBuilder { (builder:NFLoadingControllerBuilder) in
+	<#code#>
+}
+```
+- **Change background's alpha**
+```
+builder.alpha = 1
+```
+- **Change background view**
+```
+builder.backgroundView = {
+                let view = UIView()
+                view.backgroundColor = .black
+                return view
+            }
+```
+- **Change frame**
+```
+builder.frame = {
+                return CGRect(x: self.view.frame.size.width/2 - 50, y: self.view.frame.size.height/2 - 50, width: 100, height: 100)
+            }
+```
+
+- **Change image**
+```
+builder.image = UIImage.gif(name: "waiting")!
+```
+- **Change presenting style**
+```
+builder.presentingStyle = .fade
+```
+**or**
+```
+builder.presentingStyle = .popIn
+```
+- **Change dismissal style**
+```
+builder.dismissalStyle = .fade
+```
+**or**
+```
+builder.dismissalStyle = .popOut
+```
+- **Change waiting Text**
+```
+builder.waitingText = "Please Wait"
+```
+- **Change text color**
+```
+builder.textColor = .red
+```
+- **Change font**
+```
+builder.textFont = .boldSystemFont(ofSize: 20)
+```
+
+**Demo**
+=
+There is a demo project added to this repository, so you can see how it works.
+
+**License**
+=
+This software is released under the MIT License.
