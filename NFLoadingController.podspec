@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/NFLibs/NFLoadingController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'noursandid' => 'noursandid@gmail.com' , 'FirasAKAK' => 'fir_khalidi@hotmail.com' }
-  s.source           = { :git => 'https://github.com/NFLibs/NFLoadingController.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/NFLibs/NFLoadingController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
