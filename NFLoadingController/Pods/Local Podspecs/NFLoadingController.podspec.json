@@ -1,0 +1,32 @@
+{
+  "name": "NFLoadingController",
+  "version": "0.1.0",
+  "summary": "NFLoadingController is a library to facilitate the process of creating a waiting/loading screen usin GIF image",
+  "homepage": "https://github.com/NFLibs/NFLoadingController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "noursandid": "noursandid@gmail.com",
+    "FirasAKAK": "fir_khalidi@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NFLibs/NFLoadingController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NFLoadingController": [
+      "Pod/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "SwiftGifOrigin": [
+
+    ]
+  }
+}

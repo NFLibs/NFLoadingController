@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_NFLoadingController_Example_NFLoadingController_Tests : NSObject
+@end
+@implementation PodsDummy_Pods_NFLoadingController_Example_NFLoadingController_Tests
+@end

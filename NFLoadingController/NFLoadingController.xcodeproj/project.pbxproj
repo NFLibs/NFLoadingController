@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A1D7E51DF177E000B08875 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18A1D7E21DF177E000B08875 /* LICENSE */; };
+		18A1D7E61DF177E000B08875 /* NFLoadingController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18A1D7E31DF177E000B08875 /* NFLoadingController.podspec */; };
+		18A1D7E71DF177E000B08875 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 18A1D7E41DF177E000B08875 /* README.md */; };
+		18CBF1031DF1A7D0008AB182 /* loadcat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18CBF1021DF1A7D0008AB182 /* loadcat.gif */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B647B4C8740169ABA2A094E5 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C446814AFC0739A0CF65825 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework */; };
+		E557B1E6C7A888DFF7779A2B /* Pods_NFLoadingController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEDAF5E0E523E53D7AF9398 /* Pods_NFLoadingController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,11 +26,16 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = "NFLoadingController";
+			remoteInfo = NFLoadingController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A1D7E21DF177E000B08875 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		18A1D7E31DF177E000B08875 /* NFLoadingController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NFLoadingController.podspec; path = ../NFLoadingController.podspec; sourceTree = "<group>"; };
+		18A1D7E41DF177E000B08875 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		18CBF1021DF1A7D0008AB182 /* loadcat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadcat.gif; sourceTree = "<group>"; };
+		43277C75FE69714D2C5268F7 /* Pods-NFLoadingController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLoadingController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLoadingController_Example/Pods-NFLoadingController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NFLoadingController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLoadingController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +45,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* NFLoadingController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLoadingController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		8C446814AFC0739A0CF65825 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFLoadingController_Example_NFLoadingController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99234F07899AFBF67314B74 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CDEDAF5E0E523E53D7AF9398 /* Pods_NFLoadingController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFLoadingController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D663445520576C803E9C83CC /* Pods-NFLoadingController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLoadingController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NFLoadingController_Example/Pods-NFLoadingController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ECA904B22DA9B20CBF3FD45F /* Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E557B1E6C7A888DFF7779A2B /* Pods_NFLoadingController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B647B4C8740169ABA2A094E5 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,8 @@
 				607FACD21AFB9204008FA782 /* Example for NFLoadingController */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				87FF5838AAF1CA20736E11E5 /* Pods */,
+				758BBF09D14DACA561FC1931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				18CBF1021DF1A7D0008AB182 /* loadcat.gif */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -86,7 +105,7 @@
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for NFLoadingController";
-			path = "NFLoadingController";
+			path = NFLoadingController;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -100,7 +119,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -117,8 +135,31 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				18A1D7E21DF177E000B08875 /* LICENSE */,
+				18A1D7E31DF177E000B08875 /* NFLoadingController.podspec */,
+				18A1D7E41DF177E000B08875 /* README.md */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		758BBF09D14DACA561FC1931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDEDAF5E0E523E53D7AF9398 /* Pods_NFLoadingController_Example.framework */,
+				8C446814AFC0739A0CF65825 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FF5838AAF1CA20736E11E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43277C75FE69714D2C5268F7 /* Pods-NFLoadingController_Example.debug.xcconfig */,
+				D663445520576C803E9C83CC /* Pods-NFLoadingController_Example.release.xcconfig */,
+				ECA904B22DA9B20CBF3FD45F /* Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig */,
+				A99234F07899AFBF67314B74 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,16 +169,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NFLoadingController_Example" */;
 			buildPhases = (
+				D34DCDAC9F6795274521B0A8 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				B1C5A057C021CAC9271F81B8 /* [CP] Embed Pods Frameworks */,
+				58A3C142A2463A651A75E5C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NFLoadingController_Example";
-			productName = "NFLoadingController";
+			name = NFLoadingController_Example;
+			productName = NFLoadingController;
 			productReference = 607FACD01AFB9204008FA782 /* NFLoadingController_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -145,16 +189,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NFLoadingController_Tests" */;
 			buildPhases = (
+				916D255530202EEAB54311AA /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				3DF3D86ABFB1719C44422EAD /* [CP] Embed Pods Frameworks */,
+				18B1360D5A15772137BA00D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = "NFLoadingController_Tests";
+			name = NFLoadingController_Tests;
 			productName = Tests;
 			productReference = 607FACE51AFB9204008FA782 /* NFLoadingController_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -171,9 +218,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -203,7 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				18A1D7E61DF177E000B08875 /* NFLoadingController.podspec in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				18CBF1031DF1A7D0008AB182 /* loadcat.gif in Resources */,
+				18A1D7E51DF177E000B08875 /* LICENSE in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,11 +269,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18B1360D5A15772137BA00D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Pods-NFLoadingController_Example-NFLoadingController_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF3D86ABFB1719C44422EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Pods-NFLoadingController_Example-NFLoadingController_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A3C142A2463A651A75E5C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLoadingController_Example/Pods-NFLoadingController_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916D255530202EEAB54311AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C5A057C021CAC9271F81B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NFLoadingController_Example/Pods-NFLoadingController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34DCDAC9F6795274521B0A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A1D7E71DF177E000B08875 /* README.md in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -231,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,30 +494,37 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43277C75FE69714D2C5268F7 /* Pods-NFLoadingController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "NFLoadingController/Info.plist";
+				INFOPLIST_FILE = NFLoadingController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D663445520576C803E9C83CC /* Pods-NFLoadingController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "NFLoadingController/Info.plist";
+				INFOPLIST_FILE = NFLoadingController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA904B22DA9B20CBF3FD45F /* Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -386,11 +538,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99234F07899AFBF67314B74 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -400,6 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

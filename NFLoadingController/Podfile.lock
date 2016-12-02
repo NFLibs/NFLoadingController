@@ -1,0 +1,19 @@
+PODS:
+  - NFLoadingController (0.1.0):
+    - SwiftGifOrigin
+  - SwiftGifOrigin (1.6.1)
+
+DEPENDENCIES:
+  - NFLoadingController (from `../`)
+
+EXTERNAL SOURCES:
+  NFLoadingController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NFLoadingController: 3cbf1f28745574d3bab4e64c488f92090f58252b
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+
+PODFILE CHECKSUM: 53c392e4ff1752c2b971e514edc1613af776de3a
+
+COCOAPODS: 1.2.0.beta.1

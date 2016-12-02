@@ -1,0 +1,9 @@
+use_frameworks!
+
+target ‘NFLoadingController_Example' do
+  pod 'NFLoadingController', :path => '../'
+
+  target 'NFLoadingController_Tests' do
+  pod 'NFLoadingController', :path => '../'
+  end
+end

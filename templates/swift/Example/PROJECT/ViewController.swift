@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  PROJECT
+//  NFLoadingController
 //
-//  Created by PROJECT_OWNER on TODAYS_DATE.
-//  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
+//  Created by Nour Sandid on 12/02/2016.
+//  Copyright (c) 2016 Nour Sandid. All rights reserved.
 //
 
 import UIKit

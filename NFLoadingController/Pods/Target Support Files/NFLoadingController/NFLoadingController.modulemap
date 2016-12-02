@@ -1,0 +1,6 @@
+framework module NFLoadingController {
+  umbrella header "NFLoadingController-umbrella.h"
+
+  export *
+  module * { export * }
+}

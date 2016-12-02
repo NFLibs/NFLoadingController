@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076B061AABB37BD844126C6461B9F97E /* NFLoadingController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8707DF966F978A1C902B06F4401F46AE /* NFLoadingController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E96126FC80A8CCE496486412B2565D7 /* NFLoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606EE9C2D34ACCD427A4B27E7DF1598B /* NFLoadingController.swift */; };
+		3CAE4520EB5C0647CFE059D8F6E39881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6C58C1EC214FC60694569F37CEBF71 /* Foundation.framework */; };
+		3E1F45EDBA480D2BACBCAFEA86577B1B /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D07C002B20448CD3FAEFD2B759D1490 /* SwiftGifOrigin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5FBB8BD85E66016A77CD96A5701404 /* SwiftGifOrigin.framework */; };
+		7EB9FD92A0DC1D63C6DAE3167AA72F9E /* Pods-NFLoadingController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6A572EB466522A0421B07CF9E6ED /* Pods-NFLoadingController_Example-dummy.m */; };
+		9C97C85391A8F408732ECD3103C41BB9 /* Pods-NFLoadingController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7C20D43C95D39F1B2BAE52A2F6E14C /* Pods-NFLoadingController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D07BA207CC8270AD0D4FE5EBE62F818 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4736236A98A437E9D37BDCA37EC8049 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-dummy.m */; };
+		A2708DA74D7BEDDE4065A54DBA50010D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6C58C1EC214FC60694569F37CEBF71 /* Foundation.framework */; };
+		A41879E531D2D0D1DA6E114D5A9429B0 /* NFLoadingController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90055B8AFA02FEC30784D3EDCAD2F18A /* NFLoadingController-dummy.m */; };
+		ACA7C54B891485EF0251CA5D91298AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6C58C1EC214FC60694569F37CEBF71 /* Foundation.framework */; };
+		B98F336DA4E5113F213F07B41AF6A0DD /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */; };
+		BD0A621C86D06399905F9A3697BF4DD1 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C768658965D8B6B49920CC827ADC807 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DFBCA6DD60B3E87F700252FA14339C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6C58C1EC214FC60694569F37CEBF71 /* Foundation.framework */; };
+		EF5D19529E98ADF9682446D94730AA16 /* loadcat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 497017D6E2E0FD335D7A148084A11BB2 /* loadcat.gif */; };
+		FA01F341048D5B7B1F44486CA6D9E975 /* NFLoadingController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF0512A11829D95E9A4DB961597F8B9F /* NFLoadingController.bundle */; };
+		FA54A8A39F6115D9EA08443AE3766A3B /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4CC095BDE9EA510CBF66C8159E1AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D05ADFAB8FEEE95383E1F571A5B6AC7;
+			remoteInfo = SwiftGifOrigin;
+		};
+		4F9FE0237A5674DDB99A54B0CD005D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE02A71DBA75FFA6945176D29B655CA1;
+			remoteInfo = "NFLoadingController-NFLoadingController";
+		};
+		5A76A03427FD04CA6999C53FDA281C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095077B00692CB18931C56655471D715;
+			remoteInfo = NFLoadingController;
+		};
+		8687BE1406FFE60FBC00EBED1C564F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095077B00692CB18931C56655471D715;
+			remoteInfo = NFLoadingController;
+		};
+		965D5554EC78D0DF12D9089017013093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D05ADFAB8FEEE95383E1F571A5B6AC7;
+			remoteInfo = SwiftGifOrigin;
+		};
+		E774F7E5FF4465FA62B78D3116741D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D05ADFAB8FEEE95383E1F571A5B6AC7;
+			remoteInfo = SwiftGifOrigin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B037A40B8B5CA1246FE3F1C0C81655 /* Pods_NFLoadingController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NFLoadingController_Example.framework; path = "Pods-NFLoadingController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E05214DD13DE5AB6A5B4AD8D37970B /* Pods-NFLoadingController_Example-NFLoadingController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests-resources.sh"; sourceTree = "<group>"; };
+		0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		0C907120A7715AB90284F3F20C89C58C /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
+		27550E9FED66DA67CE0F4BC8C50400A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6C58C1EC214FC60694569F37CEBF71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3699F37AD6CF290F1B176740113FAD32 /* ResourceBundle-NFLoadingController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NFLoadingController-Info.plist"; sourceTree = "<group>"; };
+		397799223011FC583EB68BCB8640D050 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7C20D43C95D39F1B2BAE52A2F6E14C /* Pods-NFLoadingController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFLoadingController_Example-umbrella.h"; sourceTree = "<group>"; };
+		497017D6E2E0FD335D7A148084A11BB2 /* loadcat.gif */ = {isa = PBXFileReference; includeInIndex = 1; path = loadcat.gif; sourceTree = "<group>"; };
+		5C6F7994832241003751FA849D8C6254 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F82892FA6028D0F84BB9EC798A2E7CE /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		606EE9C2D34ACCD427A4B27E7DF1598B /* NFLoadingController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NFLoadingController.swift; sourceTree = "<group>"; };
+		63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
+		6B3DF7D23758C49366A42D36CD9CD812 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719F607FFAC876EA5A1A0EE9E72A9919 /* Pods-NFLoadingController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NFLoadingController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		772627B8C907F857E26398194979672E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E6BFB5AF24D3E4A887B2405E27723F /* Pods-NFLoadingController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFLoadingController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8707DF966F978A1C902B06F4401F46AE /* NFLoadingController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFLoadingController-umbrella.h"; sourceTree = "<group>"; };
+		87CFA2DAD52F6389A221C5DD7D3962FC /* Pods-NFLoadingController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFLoadingController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8919FD3BF13F571D6879022D26A73F5E /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6E04A7C5AD547EAACCEF6EC45DC7BD /* Pods-NFLoadingController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NFLoadingController_Example.modulemap"; sourceTree = "<group>"; };
+		90055B8AFA02FEC30784D3EDCAD2F18A /* NFLoadingController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NFLoadingController-dummy.m"; sourceTree = "<group>"; };
+		92D14EC01A8144334B622D27DF136136 /* Pods-NFLoadingController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFLoadingController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96943DAC118CFE1FBCCA3DCF14D26A9E /* NFLoadingController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NFLoadingController.xcconfig; sourceTree = "<group>"; };
+		9947408D944EFE9080E3CE870504A56D /* Pods-NFLoadingController_Example-NFLoadingController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9B1589B182FF819052EB16A5028BC841 /* Pods-NFLoadingController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFLoadingController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C768658965D8B6B49920CC827ADC807 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		ABB5811D2D593258388B55EF8ED7972D /* NFLoadingController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NFLoadingController.modulemap; sourceTree = "<group>"; };
+		AD502402DE322A84F6CD1B69BFCE2104 /* NFLoadingController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NFLoadingController.framework; path = NFLoadingController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6F6A572EB466522A0421B07CF9E6ED /* Pods-NFLoadingController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFLoadingController_Example-dummy.m"; sourceTree = "<group>"; };
+		AF0512A11829D95E9A4DB961597F8B9F /* NFLoadingController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NFLoadingController.bundle; path = NFLoadingController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33A8E26CC2A5231223F04A008FA4F5C /* Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C4736236A98A437E9D37BDCA37EC8049 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests-dummy.m"; sourceTree = "<group>"; };
+		C518996E9D3DFDAC5F02AC9FFC2BCB94 /* NFLoadingController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NFLoadingController-prefix.pch"; sourceTree = "<group>"; };
+		D59BB50F8402C7880DB526FFD5AB86D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AAC6075BA58EF9C4936ED2FC6A7B56 /* Pods-NFLoadingController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NFLoadingController_Example-resources.sh"; sourceTree = "<group>"; };
+		F09F068DC26D84310DD29818D99CC884 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NFLoadingController_Example_NFLoadingController_Tests.framework; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E08032A0E667F19C38C94E7AAD3A72 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests.modulemap"; sourceTree = "<group>"; };
+		F3825E3B8F9529B1044D780BEDF41232 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NFLoadingController_Example-NFLoadingController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
+		FD5FBB8BD85E66016A77CD96A5701404 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F887D46E917C77AB650EDEF2799BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466C7BD0B8ABC21DA295D6FE7244BC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7C54B891485EF0251CA5D91298AF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEFDAE22ADB23C6260C4257F05FE040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2708DA74D7BEDDE4065A54DBA50010D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AD39C85E1FA1A0273D0912D661C05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAE4520EB5C0647CFE059D8F6E39881 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C29251AD99ECB61951ECABB0178534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DFBCA6DD60B3E87F700252FA14339C /* Foundation.framework in Frameworks */,
+				7D07C002B20448CD3FAEFD2B759D1490 /* SwiftGifOrigin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C520DF6DC375E43854B151F4A87AD2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				28C74E0E53CF8009B860A158C11A4A3D /* Assets */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		1FD8CE5DEB17C1C76F236ADF231BD040 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				772627B8C907F857E26398194979672E /* Info.plist */,
+				5F82892FA6028D0F84BB9EC798A2E7CE /* SwiftGifOrigin.modulemap */,
+				63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */,
+				FA4196D8AF155DA5471346375971BE66 /* SwiftGifOrigin-dummy.m */,
+				0C907120A7715AB90284F3F20C89C58C /* SwiftGifOrigin-prefix.pch */,
+				0A79597D7691CDD2E78B165697E47D33 /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		22BCA2BA63699803D136C3D260E247B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDCB1552D787432F4500D417DC750046 /* Pods-NFLoadingController_Example */,
+				303BE29082BD4590638B3B04F4C30F62 /* Pods-NFLoadingController_Example-NFLoadingController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26699727C250983FF494AD0DE3CFBC88 /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				A38D269B98B57E56040F729F7EB45A57 /* UIImage+Gif.swift */,
+				1FD8CE5DEB17C1C76F236ADF231BD040 /* Support Files */,
+			);
+			name = SwiftGifOrigin;
+			path = SwiftGifOrigin;
+			sourceTree = "<group>";
+		};
+		28C74E0E53CF8009B860A158C11A4A3D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				497017D6E2E0FD335D7A148084A11BB2 /* loadcat.gif */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2AE1CDEB0F00FB2C4E8E756AE8CE18C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				606EE9C2D34ACCD427A4B27E7DF1598B /* NFLoadingController.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		303BE29082BD4590638B3B04F4C30F62 /* Pods-NFLoadingController_Example-NFLoadingController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D59BB50F8402C7880DB526FFD5AB86D9 /* Info.plist */,
+				F1E08032A0E667F19C38C94E7AAD3A72 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.modulemap */,
+				5C6F7994832241003751FA849D8C6254 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-acknowledgements.markdown */,
+				F3825E3B8F9529B1044D780BEDF41232 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-acknowledgements.plist */,
+				C4736236A98A437E9D37BDCA37EC8049 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-dummy.m */,
+				9947408D944EFE9080E3CE870504A56D /* Pods-NFLoadingController_Example-NFLoadingController_Tests-frameworks.sh */,
+				09E05214DD13DE5AB6A5B4AD8D37970B /* Pods-NFLoadingController_Example-NFLoadingController_Tests-resources.sh */,
+				9C768658965D8B6B49920CC827ADC807 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-umbrella.h */,
+				397799223011FC583EB68BCB8640D050 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig */,
+				C33A8E26CC2A5231223F04A008FA4F5C /* Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig */,
+			);
+			name = "Pods-NFLoadingController_Example-NFLoadingController_Tests";
+			path = "Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests";
+			sourceTree = "<group>";
+		};
+		54D7948B3C746F3C6B5350D8584A4C37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0512A11829D95E9A4DB961597F8B9F /* NFLoadingController.bundle */,
+				AD502402DE322A84F6CD1B69BFCE2104 /* NFLoadingController.framework */,
+				04B037A40B8B5CA1246FE3F1C0C81655 /* Pods_NFLoadingController_Example.framework */,
+				F09F068DC26D84310DD29818D99CC884 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework */,
+				8919FD3BF13F571D6879022D26A73F5E /* SwiftGifOrigin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608841A0C011260CBE35DF9B7B70B97C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2AE1CDEB0F00FB2C4E8E756AE8CE18C8 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		773EB87AFC08D5A1846AD95618F2F020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5FBB8BD85E66016A77CD96A5701404 /* SwiftGifOrigin.framework */,
+				A714DE1BEE37FBC9CADBC5B64EE4036B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				81A8F415903B83FEE4C19CBA62A604FF /* Development Pods */,
+				773EB87AFC08D5A1846AD95618F2F020 /* Frameworks */,
+				CBDE1A1234E4B1D43F65A57BED38E87C /* Pods */,
+				54D7948B3C746F3C6B5350D8584A4C37 /* Products */,
+				22BCA2BA63699803D136C3D260E247B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81A8F415903B83FEE4C19CBA62A604FF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C757EDFF27291449215CB92FC6954DBA /* NFLoadingController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		92ACDFB45A22B1C6966125D34EE25E0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3DF7D23758C49366A42D36CD9CD812 /* Info.plist */,
+				ABB5811D2D593258388B55EF8ED7972D /* NFLoadingController.modulemap */,
+				96943DAC118CFE1FBCCA3DCF14D26A9E /* NFLoadingController.xcconfig */,
+				90055B8AFA02FEC30784D3EDCAD2F18A /* NFLoadingController-dummy.m */,
+				C518996E9D3DFDAC5F02AC9FFC2BCB94 /* NFLoadingController-prefix.pch */,
+				8707DF966F978A1C902B06F4401F46AE /* NFLoadingController-umbrella.h */,
+				3699F37AD6CF290F1B176740113FAD32 /* ResourceBundle-NFLoadingController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "NFLoadingController/Pods/Target Support Files/NFLoadingController";
+			sourceTree = "<group>";
+		};
+		A714DE1BEE37FBC9CADBC5B64EE4036B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C58C1EC214FC60694569F37CEBF71 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BB4ACDF4B73F08CA9AD419F4981A49A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06C520DF6DC375E43854B151F4A87AD2 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C757EDFF27291449215CB92FC6954DBA /* NFLoadingController */ = {
+			isa = PBXGroup;
+			children = (
+				608841A0C011260CBE35DF9B7B70B97C /* Pod */,
+				BB4ACDF4B73F08CA9AD419F4981A49A7 /* Resources */,
+				92ACDFB45A22B1C6966125D34EE25E0D /* Support Files */,
+			);
+			name = NFLoadingController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CBDE1A1234E4B1D43F65A57BED38E87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26699727C250983FF494AD0DE3CFBC88 /* SwiftGifOrigin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDCB1552D787432F4500D417DC750046 /* Pods-NFLoadingController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				27550E9FED66DA67CE0F4BC8C50400A6 /* Info.plist */,
+				8D6E04A7C5AD547EAACCEF6EC45DC7BD /* Pods-NFLoadingController_Example.modulemap */,
+				719F607FFAC876EA5A1A0EE9E72A9919 /* Pods-NFLoadingController_Example-acknowledgements.markdown */,
+				84E6BFB5AF24D3E4A887B2405E27723F /* Pods-NFLoadingController_Example-acknowledgements.plist */,
+				AE6F6A572EB466522A0421B07CF9E6ED /* Pods-NFLoadingController_Example-dummy.m */,
+				87CFA2DAD52F6389A221C5DD7D3962FC /* Pods-NFLoadingController_Example-frameworks.sh */,
+				E0AAC6075BA58EF9C4936ED2FC6A7B56 /* Pods-NFLoadingController_Example-resources.sh */,
+				3C7C20D43C95D39F1B2BAE52A2F6E14C /* Pods-NFLoadingController_Example-umbrella.h */,
+				92D14EC01A8144334B622D27DF136136 /* Pods-NFLoadingController_Example.debug.xcconfig */,
+				9B1589B182FF819052EB16A5028BC841 /* Pods-NFLoadingController_Example.release.xcconfig */,
+			);
+			name = "Pods-NFLoadingController_Example";
+			path = "Target Support Files/Pods-NFLoadingController_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47B20D8ED0437610B7EEE234FB68BCA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076B061AABB37BD844126C6461B9F97E /* NFLoadingController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E5CFE3CE873326BC7FAF0ABAC37315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0A621C86D06399905F9A3697BF4DD1 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E183B75E769CF7EECA2ED23BFDEB29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C97C85391A8F408732ECD3103C41BB9 /* Pods-NFLoadingController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC387A18BB3B2B6931677850EDD92B82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1F45EDBA480D2BACBCAFEA86577B1B /* SwiftGifOrigin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		095077B00692CB18931C56655471D715 /* NFLoadingController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D08B1A35D90D880890047DA84C6BF6 /* Build configuration list for PBXNativeTarget "NFLoadingController" */;
+			buildPhases = (
+				FAE57D3221332EAA6A681744556A0E00 /* Sources */,
+				C6C29251AD99ECB61951ECABB0178534 /* Frameworks */,
+				4817C88CB2B4FCF1DEEED71583C06973 /* Resources */,
+				47B20D8ED0437610B7EEE234FB68BCA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05D027B83215238492BA5828DBCAF813 /* PBXTargetDependency */,
+				5D00D965D711CA75BC852617325AB6B0 /* PBXTargetDependency */,
+			);
+			name = NFLoadingController;
+			productName = NFLoadingController;
+			productReference = AD502402DE322A84F6CD1B69BFCE2104 /* NFLoadingController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A2F9834BB4E2D22D5043FCB32F3D1A5 /* Pods-NFLoadingController_Example-NFLoadingController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB8E176242390613531214C2785B446 /* Build configuration list for PBXNativeTarget "Pods-NFLoadingController_Example-NFLoadingController_Tests" */;
+			buildPhases = (
+				3B55223A7CB52B8200E13BEA763D9CA2 /* Sources */,
+				62AD39C85E1FA1A0273D0912D661C05D /* Frameworks */,
+				93E5CFE3CE873326BC7FAF0ABAC37315 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				596C5D18AFD9E4997DC120C63688DD99 /* PBXTargetDependency */,
+				0603B416A1DDD4D03F5C7DAF516D592D /* PBXTargetDependency */,
+			);
+			name = "Pods-NFLoadingController_Example-NFLoadingController_Tests";
+			productName = "Pods-NFLoadingController_Example-NFLoadingController_Tests";
+			productReference = F09F068DC26D84310DD29818D99CC884 /* Pods_NFLoadingController_Example_NFLoadingController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D05ADFAB8FEEE95383E1F571A5B6AC7 /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FF606ED0619206651AE9C2B6EA547A /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				C3C61FBAEB1500596CD9B1091E99493B /* Sources */,
+				466C7BD0B8ABC21DA295D6FE7244BC3E /* Frameworks */,
+				CC387A18BB3B2B6931677850EDD92B82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = 8919FD3BF13F571D6879022D26A73F5E /* SwiftGifOrigin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE02A71DBA75FFA6945176D29B655CA1 /* NFLoadingController-NFLoadingController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2537272BCC5719466D277A77B95F7B4 /* Build configuration list for PBXNativeTarget "NFLoadingController-NFLoadingController" */;
+			buildPhases = (
+				42BE08F2DCA606465D7415A327821770 /* Sources */,
+				18F887D46E917C77AB650EDEF2799BC2 /* Frameworks */,
+				A44936ACEE5147317F1AE9ECB6049E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NFLoadingController-NFLoadingController";
+			productName = "NFLoadingController-NFLoadingController";
+			productReference = AF0512A11829D95E9A4DB961597F8B9F /* NFLoadingController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CEBE6A4D31BDD6C1DC0258180D5F9594 /* Pods-NFLoadingController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428E37B47A0DBBB95B75EEA9871F1902 /* Build configuration list for PBXNativeTarget "Pods-NFLoadingController_Example" */;
+			buildPhases = (
+				8888B725BE298AF89EEA13F5458AFCB1 /* Sources */,
+				4DEFDAE22ADB23C6260C4257F05FE040 /* Frameworks */,
+				A7E183B75E769CF7EECA2ED23BFDEB29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				593A7203C3279F3912E3558C5CE16837 /* PBXTargetDependency */,
+				596E0BD323FF8B554DFC634AD869C574 /* PBXTargetDependency */,
+			);
+			name = "Pods-NFLoadingController_Example";
+			productName = "Pods-NFLoadingController_Example";
+			productReference = 04B037A40B8B5CA1246FE3F1C0C81655 /* Pods_NFLoadingController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 54D7948B3C746F3C6B5350D8584A4C37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095077B00692CB18931C56655471D715 /* NFLoadingController */,
+				BE02A71DBA75FFA6945176D29B655CA1 /* NFLoadingController-NFLoadingController */,
+				CEBE6A4D31BDD6C1DC0258180D5F9594 /* Pods-NFLoadingController_Example */,
+				7A2F9834BB4E2D22D5043FCB32F3D1A5 /* Pods-NFLoadingController_Example-NFLoadingController_Tests */,
+				8D05ADFAB8FEEE95383E1F571A5B6AC7 /* SwiftGifOrigin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4817C88CB2B4FCF1DEEED71583C06973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01F341048D5B7B1F44486CA6D9E975 /* NFLoadingController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44936ACEE5147317F1AE9ECB6049E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5D19529E98ADF9682446D94730AA16 /* loadcat.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B55223A7CB52B8200E13BEA763D9CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D07BA207CC8270AD0D4FE5EBE62F818 /* Pods-NFLoadingController_Example-NFLoadingController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BE08F2DCA606465D7415A327821770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8888B725BE298AF89EEA13F5458AFCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9FD92A0DC1D63C6DAE3167AA72F9E /* Pods-NFLoadingController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C61FBAEB1500596CD9B1091E99493B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA54A8A39F6115D9EA08443AE3766A3B /* SwiftGifOrigin-dummy.m in Sources */,
+				B98F336DA4E5113F213F07B41AF6A0DD /* UIImage+Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE57D3221332EAA6A681744556A0E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41879E531D2D0D1DA6E114D5A9429B0 /* NFLoadingController-dummy.m in Sources */,
+				2E96126FC80A8CCE496486412B2565D7 /* NFLoadingController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05D027B83215238492BA5828DBCAF813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NFLoadingController-NFLoadingController";
+			target = BE02A71DBA75FFA6945176D29B655CA1 /* NFLoadingController-NFLoadingController */;
+			targetProxy = 4F9FE0237A5674DDB99A54B0CD005D63 /* PBXContainerItemProxy */;
+		};
+		0603B416A1DDD4D03F5C7DAF516D592D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 8D05ADFAB8FEEE95383E1F571A5B6AC7 /* SwiftGifOrigin */;
+			targetProxy = E774F7E5FF4465FA62B78D3116741D65 /* PBXContainerItemProxy */;
+		};
+		593A7203C3279F3912E3558C5CE16837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFLoadingController;
+			target = 095077B00692CB18931C56655471D715 /* NFLoadingController */;
+			targetProxy = 8687BE1406FFE60FBC00EBED1C564F7B /* PBXContainerItemProxy */;
+		};
+		596C5D18AFD9E4997DC120C63688DD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NFLoadingController;
+			target = 095077B00692CB18931C56655471D715 /* NFLoadingController */;
+			targetProxy = 5A76A03427FD04CA6999C53FDA281C5F /* PBXContainerItemProxy */;
+		};
+		596E0BD323FF8B554DFC634AD869C574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 8D05ADFAB8FEEE95383E1F571A5B6AC7 /* SwiftGifOrigin */;
+			targetProxy = 1B4CC095BDE9EA510CBF66C8159E1AE6 /* PBXContainerItemProxy */;
+		};
+		5D00D965D711CA75BC852617325AB6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 8D05ADFAB8FEEE95383E1F571A5B6AC7 /* SwiftGifOrigin */;
+			targetProxy = 965D5554EC78D0DF12D9089017013093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		21F000A497CF631E595607972B0F0E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96943DAC118CFE1FBCCA3DCF14D26A9E /* NFLoadingController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NFLoadingController/NFLoadingController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFLoadingController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFLoadingController/NFLoadingController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NFLoadingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345170B8309BE2E75750BE35CD8ACFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39B10B6ADAE70C56FEC1EB4654DFA656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1589B182FF819052EB16A5028BC841 /* Pods-NFLoadingController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NFLoadingController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFLoadingController_Example/Pods-NFLoadingController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NFLoadingController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66DC56F79D81637CF0846C7BD4A13912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397799223011FC583EB68BCB8640D050 /* Pods-NFLoadingController_Example-NFLoadingController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Pods-NFLoadingController_Example-NFLoadingController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NFLoadingController_Example_NFLoadingController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95B4A0618EE70D8E30B685BF13788C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D14EC01A8144334B622D27DF136136 /* Pods-NFLoadingController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NFLoadingController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFLoadingController_Example/Pods-NFLoadingController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NFLoadingController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5C170A8D6D594C05EB9FB5C0B03633F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33A8E26CC2A5231223F04A008FA4F5C /* Pods-NFLoadingController_Example-NFLoadingController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NFLoadingController_Example-NFLoadingController_Tests/Pods-NFLoadingController_Example-NFLoadingController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NFLoadingController_Example_NFLoadingController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF5C1DDAF8009CEF3920FCC10D3001A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96943DAC118CFE1FBCCA3DCF14D26A9E /* NFLoadingController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NFLoadingController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/NFLoadingController/ResourceBundle-NFLoadingController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NFLoadingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BB42FD865C1805FF50290690D099B9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96943DAC118CFE1FBCCA3DCF14D26A9E /* NFLoadingController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NFLoadingController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/NFLoadingController/ResourceBundle-NFLoadingController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = NFLoadingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BD87EED11176D3132842092CACF3EE44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96943DAC118CFE1FBCCA3DCF14D26A9E /* NFLoadingController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NFLoadingController/NFLoadingController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NFLoadingController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NFLoadingController/NFLoadingController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NFLoadingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5AF65599A9A61C485C4AB00C47FF350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E7343B4623BF9ACC81098BFF577B13 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428E37B47A0DBBB95B75EEA9871F1902 /* Build configuration list for PBXNativeTarget "Pods-NFLoadingController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B4A0618EE70D8E30B685BF13788C28 /* Debug */,
+				39B10B6ADAE70C56FEC1EB4654DFA656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB8E176242390613531214C2785B446 /* Build configuration list for PBXNativeTarget "Pods-NFLoadingController_Example-NFLoadingController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DC56F79D81637CF0846C7BD4A13912 /* Debug */,
+				A5C170A8D6D594C05EB9FB5C0B03633F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D08B1A35D90D880890047DA84C6BF6 /* Build configuration list for PBXNativeTarget "NFLoadingController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD87EED11176D3132842092CACF3EE44 /* Debug */,
+				21F000A497CF631E595607972B0F0E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2537272BCC5719466D277A77B95F7B4 /* Build configuration list for PBXNativeTarget "NFLoadingController-NFLoadingController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C1DDAF8009CEF3920FCC10D3001A5 /* Debug */,
+				BB42FD865C1805FF50290690D099B9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FF606ED0619206651AE9C2B6EA547A /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345170B8309BE2E75750BE35CD8ACFC7 /* Debug */,
+				D5AF65599A9A61C485C4AB00C47FF350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
